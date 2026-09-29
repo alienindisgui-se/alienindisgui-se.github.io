@@ -75,14 +75,14 @@
             background-color: #000;
             background-attachment: fixed;
             background-size: cover;
-            background-image:
+            /* background-image:
                 radial-gradient(circle at var(--rx) var(--ry),
                     var(--color-start) 0%,
                     var(--color-mid) 40%,
                     var(--color-end) 95%),
                 linear-gradient(var(--angle),
                     var(--linear-start) 10%,
-                    var(--linear-end) 100%);
+                    var(--linear-end) 100%); */
             font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
             color: white;
             animation: drift 10s linear infinite alternate;
