@@ -19,42 +19,42 @@
         @property --color-start {
             syntax: '<color>';
             inherits: false;
-            initial-value: rgba(102, 0, 153, 1);
+            initial-value: rgba(20, 50, 18, 1);
         }
 
         @property --color-mid {
             syntax: '<color>';
             inherits: false;
-            initial-value: rgba(75, 0, 130, 0.7);
+            initial-value: rgba(20, 50, 18, 0.92);
         }
 
         @property --color-end {
             syntax: '<color>';
             inherits: false;
-            initial-value: rgba(48, 25, 130, 0.3);
+            initial-value: rgba(8, 18, 9, 0.98);
         }
 
         @property --linear-start {
             syntax: '<color>';
             inherits: false;
-            initial-value: rgba(102, 0, 153, 1);
+            initial-value: rgba(20, 50, 18, 1);
         }
 
         @property --linear-end {
             syntax: '<color>';
             inherits: false;
-            initial-value: rgba(48, 25, 130, 0.7);
+            initial-value: rgba(5, 12, 6, 1);
         }
 
         :root {
             --rx: 15%;
-            --ry: 20%;
+            --ry: 5%;
             --angle: 120deg;
-            --color-start: rgba(102, 0, 153, 1);
-            --color-mid: rgba(75, 0, 130, 0.7);
-            --color-end: rgba(48, 25, 130, 0.3);
-            --linear-start: rgba(102, 0, 153, 1);
-            --linear-end: rgba(48, 25, 130, 0.7);
+            --color-start: rgba(20, 50, 18, 1);
+            --color-mid: rgba(20, 50, 18, 0.92);
+            --color-end: rgba(8, 18, 9, 0.98);
+            --linear-start: rgba(20, 50, 18, 1);
+            --linear-end: rgba(5, 12, 6, 1);
         }
 
         html,
@@ -72,7 +72,7 @@
             align-items: center;
             min-height: auto;
             width: 100%;
-            background-color: #000;
+            /* background-color: #000; */
             background-attachment: fixed;
             background-size: cover;
             background-image:
@@ -96,101 +96,101 @@
         @keyframes drift {
             0% {
                 --rx: 15%;
-                --ry: 20%;
+                --ry: 5%;
                 --angle: 120deg;
-                --color-start: rgba(102, 0, 153, 1);
-                --color-mid: rgba(75, 0, 130, 0.7);
-                --color-end: rgba(48, 25, 130, 0.3);
-                --linear-start: rgba(102, 0, 153, 1);
-                --linear-end: rgba(48, 25, 130, 0.7);
+                --color-start: rgba(20, 50, 18, 1);
+                --color-mid: rgba(20, 50, 18, 0.92);
+                --color-end: rgba(8, 18, 9, 0.98);
+                --linear-start: rgba(20, 50, 18, 1);
+                --linear-end: rgba(5, 12, 6, 1);
             }
 
             12.5% {
                 --rx: 15.15%;
-                --ry: 20.5%;
+                --ry: 5.5%;
                 --angle: 120.05deg;
-                --color-start: rgba(102, 2, 153, 1);
-                --color-mid: rgba(75, 0, 130, 0.71);
-                --color-end: rgba(48, 25, 130, 0.31);
-                --linear-start: rgba(102, 0, 153, 1);
-                --linear-end: rgba(48, 25, 130, 0.71);
+                --color-start: rgba(18, 45, 16, 1);
+                --color-mid: rgba(18, 45, 16, 0.93);
+                --color-end: rgba(7, 16, 8, 0.98);
+                --linear-start: rgba(18, 45, 16, 1);
+                --linear-end: rgba(5, 10, 6, 1);
             }
 
             25% {
                 --rx: 15.3%;
-                --ry: 21%;
+                --ry: 6%;
                 --angle: 120.1deg;
-                --color-start: rgba(102, 5, 153, 1);
-                --color-mid: rgba(75, 0, 130, 0.72);
-                --color-end: rgba(48, 25, 130, 0.32);
-                --linear-start: rgba(102, 0, 153, 1);
-                --linear-end: rgba(48, 25, 130, 0.72);
+                --color-start: rgba(16, 40, 15, 1);
+                --color-mid: rgba(16, 40, 15, 0.94);
+                --color-end: rgba(6, 14, 7, 0.99);
+                --linear-start: rgba(16, 40, 15, 1);
+                --linear-end: rgba(4, 9, 5, 1);
             }
 
             37.5% {
                 --rx: 15.45%;
-                --ry: 21.5%;
+                --ry: 6.5%;
                 --angle: 120.15deg;
-                --color-start: rgba(102, 8, 153, 1);
-                --color-mid: rgba(75, 0, 130, 0.73);
-                --color-end: rgba(48, 25, 130, 0.33);
-                --linear-start: rgba(102, 0, 153, 1);
-                --linear-end: rgba(48, 25, 130, 0.73);
+                --color-start: rgba(14, 38, 14, 1);
+                --color-mid: rgba(14, 38, 14, 0.95);
+                --color-end: rgba(5, 12, 6, 0.99);
+                --linear-start: rgba(14, 38, 14, 1);
+                --linear-end: rgba(4, 8, 5, 1);
             }
 
             50% {
                 --rx: 15.6%;
-                --ry: 22%;
+                --ry: 7%;
                 --angle: 120.2deg;
-                --color-start: rgba(102, 11, 153, 1);
-                --color-mid: rgba(75, 0, 130, 0.74);
-                --color-end: rgba(48, 25, 130, 0.34);
-                --linear-start: rgba(102, 0, 153, 1);
-                --linear-end: rgba(48, 25, 130, 0.74);
+                --color-start: rgba(12, 35, 13, 1);
+                --color-mid: rgba(12, 35, 13, 0.96);
+                --color-end: rgba(4, 10, 5, 1);
+                --linear-start: rgba(12, 35, 13, 1);
+                --linear-end: rgba(3, 7, 4, 1);
             }
 
             62.5% {
                 --rx: 15.75%;
-                --ry: 22.5%;
+                --ry: 6.5%;
                 --angle: 120.25deg;
-                --color-start: rgba(102, 8, 153, 1);
-                --color-mid: rgba(75, 0, 130, 0.73);
-                --color-end: rgba(48, 25, 130, 0.33);
-                --linear-start: rgba(102, 0, 153, 1);
-                --linear-end: rgba(48, 25, 130, 0.73);
+                --color-start: rgba(14, 38, 14, 1);
+                --color-mid: rgba(14, 38, 14, 0.95);
+                --color-end: rgba(5, 12, 6, 0.99);
+                --linear-start: rgba(14, 38, 14, 1);
+                --linear-end: rgba(4, 8, 5, 1);
             }
 
             75% {
                 --rx: 15.9%;
-                --ry: 23%;
+                --ry: 6%;
                 --angle: 120.3deg;
-                --color-start: rgba(102, 5, 153, 1);
-                --color-mid: rgba(75, 0, 130, 0.72);
-                --color-end: rgba(48, 25, 130, 0.32);
-                --linear-start: rgba(102, 0, 153, 1);
-                --linear-end: rgba(48, 25, 130, 0.72);
+                --color-start: rgba(16, 40, 15, 1);
+                --color-mid: rgba(16, 40, 15, 0.94);
+                --color-end: rgba(6, 14, 7, 0.99);
+                --linear-start: rgba(16, 40, 15, 1);
+                --linear-end: rgba(4, 9, 5, 1);
             }
 
             87.5% {
                 --rx: 15.75%;
-                --ry: 22.5%;
+                --ry: 5.5%;
                 --angle: 120.15deg;
-                --color-start: rgba(102, 2, 153, 1);
-                --color-mid: rgba(75, 0, 130, 0.71);
-                --color-end: rgba(48, 25, 130, 0.31);
-                --linear-start: rgba(102, 0, 153, 1);
-                --linear-end: rgba(48, 25, 130, 0.71);
+                --color-start: rgba(18, 45, 16, 1);
+                --color-mid: rgba(18, 45, 16, 0.93);
+                --color-end: rgba(7, 16, 8, 0.98);
+                --linear-start: rgba(18, 45, 16, 1);
+                --linear-end: rgba(5, 10, 6, 1);
             }
 
             100% {
                 --rx: 15.6%;
-                --ry: 22%;
+                --ry: 5%;
                 --angle: 120deg;
-                --color-start: rgba(102, 0, 153, 1);
-                --color-mid: rgba(75, 0, 130, 0.7);
-                --color-end: rgba(48, 25, 130, 0.3);
-                --linear-start: rgba(102, 0, 153, 1);
-                --linear-end: rgba(48, 25, 130, 0.7);
+                --color-start: rgba(20, 50, 18, 1);
+                --color-mid: rgba(20, 50, 18, 0.92);
+                --color-end: rgba(8, 18, 9, 0.98);
+                --linear-start: rgba(20, 50, 18, 1);
+                --linear-end: rgba(5, 12, 6, 1);
             }
         }
 
